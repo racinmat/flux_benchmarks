@@ -1,0 +1,8 @@
+┌ Warning: The Pkg REPL interface is intended for interactive use, use with caution from scripts.
+└ @ Pkg.REPLMode /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.6/Pkg/src/REPLMode/REPLMode.jl:378
+┌ Info: running
+└   #= /home/matej.racinsky/projects/something/flux_benchmarks/0_11_6_tricks/main.jl:34 =# @__DIR__ = "/home/matej.racinsky/projects/something/flux_benchmarks/0_11_6_tricks"
+  4.438 μs (2 allocations: 39.14 KiB)
+  4.694 μs (3 allocations: 39.17 KiB)
+  8.311 μs (4 allocations: 78.28 KiB)
+  120.063 μs (117 allocations: 203.38 KiB)
