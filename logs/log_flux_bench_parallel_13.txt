@@ -2,7 +2,7 @@
 └ @ Pkg.REPLMode /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.6/Pkg/src/REPLMode/REPLMode.jl:378
 ┌ Info: running
 └   #= /home/matej.racinsky/projects/something/flux_benchmarks/0_12_7_tricks/main.jl:32 =# @__DIR__ = "/home/matej.racinsky/projects/something/flux_benchmarks/0_12_7_tricks"
-  4.363 μs (2 allocations: 39.14 KiB)
-  4.816 μs (3 allocations: 39.16 KiB)
-  7.973 μs (4 allocations: 78.28 KiB)
-  117.876 μs (140 allocations: 203.36 KiB)
+  4.557 μs (2 allocations: 39.14 KiB)
+  4.689 μs (3 allocations: 39.16 KiB)
+  8.761 μs (4 allocations: 78.28 KiB)
+  128.043 μs (140 allocations: 203.36 KiB)

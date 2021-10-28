@@ -4,8 +4,8 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=10G
 #SBATCH --partition=med
-#SBATCH --array=0-14
-##SBATCH --array=5-10
+##SBATCH --array=0-14
+#SBATCH --array=0,2,6-14
 ##SBATCH --array=7-10
 
 declare -A projects

@@ -1,7 +1,7 @@
 Precompiling project...
 ┌ Info: running
 └   #= /home/matej.racinsky/projects/something/flux_benchmarks/0_12_1_tricks/main.jl:32 =# @__DIR__ = "/home/matej.racinsky/projects/something/flux_benchmarks/0_12_1_tricks"
-  5.298 μs (2 allocations: 39.14 KiB)
-  6.111 μs (3 allocations: 39.16 KiB)
-  10.348 μs (4 allocations: 78.28 KiB)
-  188.739 μs (149 allocations: 202.69 KiB)
+  4.728 μs (2 allocations: 39.14 KiB)
+  5.810 μs (3 allocations: 39.16 KiB)
+  9.943 μs (4 allocations: 78.28 KiB)
+  146.527 μs (149 allocations: 202.69 KiB)
