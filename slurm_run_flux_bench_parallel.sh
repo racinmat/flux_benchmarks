@@ -4,7 +4,7 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=10G
 #SBATCH --partition=med
-#SBATCH --array=0-13
+#SBATCH --array=0-14
 ##SBATCH --array=5-10
 ##SBATCH --array=7-10
 
@@ -38,5 +38,7 @@ projects[12,0]="$HOME/julia-1.6.2/bin/julia"
 projects[12,1]="0_12_7"
 projects[13,0]="$HOME/julia-1.6.2/bin/julia"
 projects[13,1]="0_12_7_tricks"
+projects[13,0]="$HOME/julia-1.6.2/bin/julia"
+projects[13,1]="0_12_8"
 
 cd /home/matej.racinsky/projects/something/flux_benchmarks && ${projects[$SLURM_ARRAY_TASK_ID,0]} --project="${projects[$SLURM_ARRAY_TASK_ID,1]}" "${projects[$SLURM_ARRAY_TASK_ID,1]}"/main.jl

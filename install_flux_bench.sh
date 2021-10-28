@@ -33,7 +33,9 @@ projects[12,0]="$HOME/julia-1.6.2/bin/julia"
 projects[12,1]="0_12_7"
 projects[13,0]="$HOME/julia-1.6.2/bin/julia"
 projects[13,1]="0_12_7_tricks"
+projects[14,0]="$HOME/julia-1.6.2/bin/julia"
+projects[14,1]="0_12_8"
 
-for i in {0..13}; do echo $i; echo ${projects[$i,0]} ${projects[$i,1]}; cd /home/matej.racinsky/projects/something/flux_benchmarks && ${projects[$i,0]} --project=${projects[$i,1]} -e 'using Pkg; pkg"instantiate; build; precompile"'; done
+for i in {0..14}; do echo $i; echo ${projects[$i,0]} ${projects[$i,1]}; cd /home/matej.racinsky/projects/something/flux_benchmarks && ${projects[$i,0]} --project=${projects[$i,1]} -e 'using Pkg; pkg"instantiate; build; precompile"'; done
 
 # then you can run benchmark by sbatch slurm_run_flux_bench_parallel.sh
