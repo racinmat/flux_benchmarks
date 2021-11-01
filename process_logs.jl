@@ -15,7 +15,8 @@ end
 file = first(log_files)
 
 experiment_names = ["0_11_3", "0_11_3_tricks", "0_11_6", "0_11_6_tricks", "0_12_1", "0_12_1_tricks", 
-        "0_11_3_jl_16", "0_11_3_tricks_jl_16", "0_11_6_jl_16", "0_11_6_tricks_jl_16", "0_12_1_jl_16", "0_12_1_tricks_jl_16", "0_12_7_jl_16", "0_12_7_tricks_jl_16", "0_12_8_jl_16"]
+        "0_11_3_jl_16", "0_11_3_tricks_jl_16", "0_11_6_jl_16", "0_11_6_tricks_jl_16", "0_12_1_jl_16", 
+        "0_12_1_tricks_jl_16", "0_12_7_jl_16", "0_12_7_tricks_jl_16", "0_12_8_jl_16"]
 
 filename2experiment(f) = experiment_names[1+parse(Int, f[length("log_flux_bench_parallel_")+1:end-length(".txt")])]
 results = Dict(filename2experiment(basename(file))=>parse_times(file) for file in log_files)

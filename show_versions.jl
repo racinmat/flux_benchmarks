@@ -1,8 +1,8 @@
 using Pkg
 pkg"activate ."
-using DataFrames
+using DataFrames, TOML
 
-projects = ["0_11_3", "0_11_3_tricks", "0_11_6", "0_11_6_tricks", "0_12_1", "0_12_1_tricks", "0_12_7", "0_12_7_tricks"]
+projects = ["0_11_3", "0_11_3_tricks", "0_11_6", "0_11_6_tricks", "0_12_1", "0_12_1_tricks", "0_12_7", "0_12_7_tricks", "0_12_8"]
 libs = ["Zygote", "Flux", "project"]
 
 res = Dict()
